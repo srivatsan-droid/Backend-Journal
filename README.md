@@ -13,8 +13,8 @@ I'm diving into everything backend — from Spring Boot to Microservices — one
 
 | 🧩 Phase | 📚 Topic | ✅ Status | 📝 Notes |
 |--------|-----------|----------|-------|
-| 1️⃣ | `Core Java` *(OOP, Collections, Streams)* | ✅ Done | ☕ `See: /java-basics` |
-| 2️⃣ | `JDBC + MySQL` | ⏳ In Progress | `CRUD App brewing...` |
+| 1️⃣ | `Core Java` *(OOP, Collections, Streams)* | ⏳ In Progress | ☕ `See: /java-basics` |
+| 2️⃣ | `JDBC + MySQL` | 🔜| `CRUD App brewing...` |
 | 3️⃣ | `Spring Boot + REST APIs` | 🔜 | Next cup of code... |
 | 4️⃣ | `Spring Data JPA + Hibernate` | 🔜 | ORM + Entity mapping |
 | 5️⃣ | `Spring Security + JWT` | 🔜 | Locking things 🔐 |
