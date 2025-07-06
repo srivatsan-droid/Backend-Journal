@@ -26,3 +26,64 @@ I'm diving into everything backend — from Spring Boot to Microservices — one
 
 ## 📂 Project Structure
 
+📁 java-backend-journey/
+├── ☕ java-basics/ → OOP, Classes, Objects, Collections
+├── 🛢️ jdbc-mysql/ → JDBC CRUD App + SQL queries
+├── 🌱 spring-boot-projects/
+│ ├── blog-api/ → RESTful Blog App (Create, Read)
+│ └── todo-api/ → Auth-based TODO App
+├── 🧬 microservices/
+│ ├── user-service/
+│ ├── order-service/
+│ └── notification-service/
+├── 📨 kafka/
+│ └── order-event-processor/
+├── 🐳 docker-deployment/ → Docker Compose + Spring Boot
+└── README.md → You're here :)
+
+---
+
+## ⚙️ Live Project Demos (Soon)
+
+> Coming soon — hosted apps, Swagger docs, Docker builds...
+
+- `🔒 Secure Blog REST API` – Spring Boot + JWT + MySQL
+- `📦 Microservices System` – User, Order, Inventory (Kafka + Eureka)
+- `🛒 E-Commerce Backend` – Checkout, Cart, Auth, Deployment
+
+---
+
+## 🔁 Weekly Goals
+
+- ☑️ Master OOP & Collections
+- 🔄 Build JDBC + DB Layer
+- 🔜 Start Spring Boot REST API
+- 🔐 Implement JWT-based Auth
+- 🐳 Dockerize & Deploy
+
+---
+
+## 📚 Resources I Love
+
+- ☕ [Java Brains – YouTube](https://www.youtube.com/user/koushks)
+- 🌱 [Spring Boot Guides](https://spring.io/guides)
+- 💡 [Baeldung Articles](https://www.baeldung.com/)
+- 💥 [Roadmap.sh Backend](https://roadmap.sh/backend)
+
+---
+
+## ✨ Connect With Me
+
+Wanna chat about backend, projects, or caffeine?
+
+- 💼 LinkedIn: [linkedin.com/in/srivatsan](https://linkedin.com/in/srivatsan)
+- 🐙 GitHub: [@srivatsan-v](https://github.com/srivatsan-v)
+- 📬 Email: `you@example.com`
+
+---
+
+## ⭐ If you love Java and Coffee...
+
+Give this repo a ⭐ and follow along. Let's code and caffeinate together ☕👨‍💻
+
+> _"Backends don’t break when fueled with clean code & strong coffee."_
