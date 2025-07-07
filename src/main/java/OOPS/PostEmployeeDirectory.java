@@ -1,0 +1,48 @@
+package OOPS;
+abstract class Employee2 {
+    int id;
+    String name;
+    double salary;
+    public Employee2(int id, String name, double salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+    abstract void calculateSalary();
+}
+class Developer1 extends Employee2 {
+    double hourlyRate = 1000;
+    int hoursWorked = 40;
+    public Developer1(int id, String name, double salary) {
+        super(id, name, salary);
+    }
+    void calculateSalary() {
+        double totalSalary = hourlyRate * hoursWorked;
+        System.out.println("Developer salary is: " + totalSalary);
+}
+class Manager1 extends Employee2 {
+    double bonus = 5000;
+    public Manager1(int id, String name, double salary) {
+        super(id, name, salary);
+    }
+    void calculateSalary() {
+        double totalSalary = super.salary + bonus;
+        System.out.println("Manager salary is: " + totalSalary);
+    }
+}
+class Intern extends Employee2 {
+    public Intern(int id, String name, double salary) {
+        super(id, name, salary);
+    }
+    void calculateSalary() {
+        System.out.println("Intern salary is calculated");
+    }
+}
+public class PostEmployeeDirectory {
+    public static void main(String[] args) {
+        Employee2 obj = new Developer1(1, "John", 5000);
+        obj.calculateSalary();
+
+    }
+    }
+}
